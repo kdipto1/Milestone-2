@@ -172,12 +172,15 @@ font-family: 'Mochiy Pop P One', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width: auto;
   }
   .banner-section{
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
     align-items: center ;
+    margin: 0 auto;
+    width: auto;
   }
   .banner-section img{
     margin-top: 22px;
@@ -196,6 +199,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
   }
   .products-section .products{
     display: grid;
@@ -204,7 +208,8 @@ font-family: 'Mochiy Pop P One', sans-serif;
     margin: 0;
   }
   .footer{
-    margin: 0;
+    margin: 0 auto;
+    width: auto;
   }
 }
 
@@ -217,12 +222,15 @@ font-family: 'Mochiy Pop P One', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width: auto;
   }
   .banner-section {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
     justify-items: center;
+    margin: 0 auto;
+    width: auto;
   }
   .banner-section .left-banner{
     display: flex;
@@ -241,6 +249,8 @@ font-family: 'Mochiy Pop P One', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    width: auto;
   }
   .products-section .products {
     display: grid;
@@ -248,7 +258,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
     margin: 0 auto;
   }
   .footer{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    width: auto;
   }
 }
