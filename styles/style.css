@@ -130,6 +130,30 @@ button .fas{
   margin-left: 8px;
 }
 /* products-section style end ====================== */
+/* optional section start ================================== */
+.optional-section{
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+}
+.optional-section h2{
+  display: inline;
+  padding: 10px 20px;
+  color: whitesmoke;
+  background-color: tomato;
+  border-radius: 15px;
+}
+.optional-section .optionals{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optional-section .optionals img{
+  width: 150px;
+  padding: 20px;
+}
+
+/* optional section end ==================================== */
 /* footer section start======================== */
 .footer{
   display: flex;
