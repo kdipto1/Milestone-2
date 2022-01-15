@@ -158,3 +158,55 @@ font-family: 'Mochiy Pop P One', sans-serif;
   margin-top: 17px;
 }
 /* footer section end ========================== */
+/* resposive design ============================================= */
+@media only screen and (max-width: 1199px) {
+  body{
+    overflow-x: hidden;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-section{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .products-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .products-section .products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    margin: 0;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .products-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .products-section .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+  
+}
