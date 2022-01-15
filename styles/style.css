@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style====================== */
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* common style ===================== */
+/* banner-section style start==================== */
+.banner-section{
+  display: flex;
+  align-items: center;
+
+}
+.left-banner{
+width: 582px;
+margin-right: 133px;
+}
+.left-banner h1{
+  font-size: 52px;
+  font-weight:700;
+}
+.right-banner img{
+width: 440px;
+
+}
+button{
+  color: white;
+  background-color: #E02C6D;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+/* banner-section style end ===================== */
+/* products-section style start=================== */
+.products-section{
+}
+.products-section h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.products-section .products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product{
+  width: 329px;
+  height: 476px;
+  padding: 17px 14px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.products-section a{
+  margin-top: 30px;
+}
+/* products-section style end ====================== */
