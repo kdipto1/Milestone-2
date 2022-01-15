@@ -34,6 +34,9 @@ button{
   padding: 10px 20px;
   border-radius: 40px;
 }
+button .fas{
+  margin-left: 8px;
+}
 /* banner-section style end ===================== */
 /* products-section style start=================== */
 .products-section{
@@ -62,6 +65,10 @@ button{
   align-items: center;
   text-align: center;
 }
+.product img{
+  width: 300px;
+  height: 256px;
+}
 .product h3{
   font-weight: 500;
   font-size: 28px;
@@ -88,7 +95,41 @@ button{
   font-weight: 700;
   color: #E02C6DDE;
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: end;
 }
+.products-section .see-more .fas{
+  margin-left: 8px;
+}
 /* products-section style end ====================== */
+/* footer section start======================== */
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: #0A0826;
+  height: 240px;
+}
+.footer h3{
+margin-top: 50px;
+margin-bottom: 0;
+font-weight: 700;
+font-size: 24px;
+}
+.footer p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0;
+}
+.footer .social-icons{
+  display: flex;
+}
+.footer .social-icons .fab{
+  margin: 0 16px;
+  font-size: 32px;
+  margin-top: 17px;
+}
+/* footer section end ========================== */
