@@ -187,6 +187,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
   .products-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .products-section .products{
     display: grid;
@@ -221,6 +222,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
   .products-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .products-section .products {
     display: grid;
