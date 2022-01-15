@@ -16,6 +16,7 @@ font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
   width: 100%;
+  margin: 0 auto;
 }
 .left-banner{
 width: 582px;
@@ -42,6 +43,7 @@ button .fas{
 /* banner-section style end ===================== */
 /* products-section style start=================== */
 .products-section{
+  margin: 0 auto;
 }
 .products-section h2{
   text-align: center;
@@ -113,6 +115,7 @@ button .fas{
   color: white;
   background-color: #0A0826;
   height: 240px;
+  margin: 0 auto;
 }
 .footer h3{
 margin-top: 50px;
