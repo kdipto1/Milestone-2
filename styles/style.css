@@ -69,7 +69,7 @@ button .fas{
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
-
+  margin-top: 100px;
 }
 .products-section .products{
   display: grid;
@@ -119,6 +119,7 @@ button .fas{
   color: #E02C6DDE;
   text-decoration: none;
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: end;
 }
 .products-section .see-more .fas{
