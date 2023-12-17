@@ -1,90 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 /* common style====================== */
 
-body{
-font-family: 'Poppins', sans-serif;
-overflow-x: hidden;
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 /* common style ===================== */
 /* navigation style start=============================== */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav h2{
+nav h2 {
   font-size: 24px;
   font-weight: 700;
 }
-.nav-right .fas.fa-search{
+.nav-right .fas.fa-search {
   padding-right: 34px;
 }
-.nav-right a{
+.nav-right a {
   text-decoration: none;
-  color: #3A3A3A;
+  color: #3a3a3a;
   padding-right: 34px;
 }
 /* navigation style end ================================ */
 /* banner-section style start==================== */
-.banner-section{
+.banner-section {
   display: flex;
   align-items: center;
   width: 100%;
   margin: 0 auto;
 }
-.left-banner{
-width: 582px;
-margin-right: 133px;
+.left-banner {
+  width: 582px;
+  margin-right: 133px;
 }
-.left-banner h1{
+.left-banner h1 {
   font-size: 52px;
-  font-weight:700;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: 700;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
-.right-banner img{
-width: 440px;
+.right-banner img {
+  width: 440px;
 }
-.right-banner img:hover{
+.right-banner img:hover {
   transform: scale(1.2);
+  transition: all 1s;
 }
-button{
+button {
   color: white;
-  background-color: #E02C6D;
+  background-color: #e02c6d;
   padding: 10px 20px;
   border-radius: 40px;
   margin: 0;
 }
-button .fas{
+button .fas {
   margin-left: 8px;
 }
 /* banner-section style end ===================== */
 /* products-section style start=================== */
-.products-section{
+.products-section {
   margin: 0 auto;
 }
-.products-section h2{
+.products-section h2 {
   text-align: center;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
   margin-top: 100px;
 }
-.products-section .products{
+.products-section .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-.product{
+.product {
   width: 329px;
   height: 450px;
   padding: 17px 14px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   display: flex;
@@ -92,96 +93,96 @@ button .fas{
   align-items: center;
   text-align: center;
 }
-.product img{
+.product img {
   width: 300px;
   height: 256px;
 }
-.product h3{
+.product h3 {
   font-weight: 500;
   font-size: 28px;
   margin: 0;
   padding-top: 16px;
 }
-.product .price{
+.product .price {
   font-size: 24px;
   font-weight: 400;
   margin: 0;
   padding-top: 6px;
 }
-.product .rating .fas.fa-star{
+.product .rating .fas.fa-star {
   color: Orange;
 }
-.product p{
+.product p {
   font-size: 14px;
   font-weight: 700;
   margin: 0;
   padding-top: 5px;
 }
-.products-section a{
+.products-section a {
   display: block;
   font-weight: 700;
-  color: #E02C6DDE;
+  color: #e02c6dde;
   text-decoration: none;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: end;
 }
-.products-section .see-more .fas{
+.products-section .see-more .fas {
   margin-left: 8px;
 }
 /* products-section style end ====================== */
 /* optional section start ================================== */
-.optional-section{
+.optional-section {
   text-align: center;
   margin: 0 auto;
   width: auto;
 }
-.optional-section h2{
+.optional-section h2 {
   display: inline;
   padding: 10px 20px;
   color: whitesmoke;
   background-color: tomato;
   border-radius: 15px;
 }
-.optional-section .optionals{
+.optional-section .optionals {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.optional-section .optionals img{
+.optional-section .optionals img {
   width: 150px;
   padding: 20px;
 }
 
 /* optional section end ==================================== */
 /* footer section start======================== */
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   color: white;
-  background-color: #0A0826;
+  background-color: #0a0826;
   height: 240px;
   margin: 0 auto;
 }
-.footer h3{
-margin-top: 50px;
-margin-bottom: 0;
-font-weight: 700;
-font-size: 24px;
-font-family: 'Mochiy Pop P One', sans-serif;
+.footer h3 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
-.footer p{
+.footer p {
   margin: 0;
   font-size: 14px;
   font-weight: 700;
   padding: 0;
 }
-.footer .social-icons{
+.footer .social-icons {
   display: flex;
 }
-.footer .social-icons .fab{
+.footer .social-icons .fab {
   margin: 0 16px;
   font-size: 32px;
   margin-top: 17px;
@@ -189,28 +190,28 @@ font-family: 'Mochiy Pop P One', sans-serif;
 /* footer section end ========================== */
 /* resposive design ============================================= */
 @media only screen and (max-width: 1199px) {
-  body{
+  body {
     overflow-x: hidden;
   }
-  nav{
+  nav {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: auto;
   }
-  .banner-section{
+  .banner-section {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
-    align-items: center ;
+    align-items: center;
     margin: 0 auto;
     width: auto;
   }
-  .banner-section img{
+  .banner-section img {
     margin-top: 22px;
     width: 340px;
   }
-  .banner-section .left-banner{
+  .banner-section .left-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,25 +219,24 @@ font-family: 'Mochiy Pop P One', sans-serif;
     margin: 0 auto;
     padding: 0 20;
   }
-  
-  .products-section{
+
+  .products-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
   }
-  .products-section .products{
+  .products-section .products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0;
   }
-  .footer{
+  .footer {
     margin: 0 auto;
     width: auto;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   body {
@@ -256,7 +256,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
     margin: 0 auto;
     width: auto;
   }
-  .banner-section .left-banner{
+  .banner-section .left-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,7 +266,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
     padding: 0 15px;
     margin: 0 auto;
   }
-  .banner-section .right-banner img{
+  .banner-section .right-banner img {
     width: 257px;
   }
   .products-section {
@@ -281,7 +281,7 @@ font-family: 'Mochiy Pop P One', sans-serif;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
   }
-  .footer{
+  .footer {
     margin: 0 auto;
     width: auto;
   }
