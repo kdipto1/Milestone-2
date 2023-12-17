@@ -2,20 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 /* common style====================== */
 
-/* * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-} */
-
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
 .container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 /* common style ===================== */
 /* navigation style start=============================== */
@@ -25,16 +19,16 @@ nav {
   align-items: center;
 }
 nav h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .nav-right .fas.fa-search {
-  padding-right: 34px;
+  padding-right: 2.125rem;
 }
 .nav-right a {
   text-decoration: none;
   color: #3a3a3a;
-  padding-right: 34px;
+  padding-right: 2.125rem;
 }
 /* navigation style end ================================ */
 /* banner-section style start==================== */
@@ -45,16 +39,16 @@ nav h2 {
   margin: 0 auto;
 }
 .left-banner {
-  width: 582px;
-  margin-right: 133px;
+  width: 36.375rem;
+  margin-right: 8.3125rem;
 }
 .left-banner h1 {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   font-family: "Mochiy Pop P One", sans-serif;
 }
 .right-banner img {
-  width: 440px;
+  width: 27.5rem;
 }
 .right-banner img:hover {
   transform: scale(1.2);
@@ -68,12 +62,12 @@ nav h2 {
 button {
   color: white;
   background-color: #e02c6d;
-  padding: 10px 20px;
-  border-radius: 40px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 2.5rem;
   margin: 0;
 }
 button .fas {
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 /* banner-section style end ===================== */
 /* products-section style start=================== */
@@ -82,64 +76,64 @@ button .fas {
 }
 .products-section h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 30px;
-  margin-top: 100px;
+  margin-bottom: 1.875rem;
+  margin-top: 6.25rem;
 }
 .products-section .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 1.875rem;
 }
 .product {
-  width: 329px;
-  height: 450px;
-  padding: 17px 14px;
+  width: 20.5625rem;
+  height: 28.125rem;
+  padding: 1.0625rem 0.875rem;
   background: #ffffff;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  box-shadow: 0rem 0rem 2.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 .product img {
-  width: 300px;
-  height: 256px;
+  width: 18.75rem;
+  height: 16rem;
 }
 .product h3 {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin: 0;
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 .product .price {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
-  padding-top: 6px;
+  padding-top: 0.375rem;
 }
 .product .rating .fas.fa-star {
   color: Orange;
 }
 .product p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 0.3125rem;
 }
 .products-section a {
   display: block;
   font-weight: 700;
   color: #e02c6dde;
   text-decoration: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
   text-align: end;
 }
 .products-section .see-more .fas {
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 /* products-section style end ====================== */
 /* optional section start ================================== */
@@ -150,10 +144,10 @@ button .fas {
 }
 .optional-section h2 {
   display: inline;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   color: whitesmoke;
   background-color: tomato;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .optional-section .optionals {
   display: flex;
@@ -161,8 +155,8 @@ button .fas {
   justify-content: center;
 }
 .optional-section .optionals img {
-  width: 150px;
-  padding: 20px;
+  width: 9.375rem;
+  padding: 1.25rem;
 }
 
 /* optional section end ==================================== */
@@ -174,19 +168,19 @@ button .fas {
   text-align: center;
   color: white;
   background-color: #0a0826;
-  height: 240px;
+  height: 15rem;
   margin: 0 auto;
 }
 .footer h3 {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   margin-bottom: 0;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Mochiy Pop P One", sans-serif;
 }
 .footer p {
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   padding: 0;
 }
@@ -194,13 +188,13 @@ button .fas {
   display: flex;
 }
 .footer .social-icons .fab {
-  margin: 0 16px;
-  font-size: 32px;
-  margin-top: 17px;
+  margin: 0 1rem;
+  font-size: 2rem;
+  margin-top: 1.0625rem;
 }
 /* footer section end ========================== */
 /* resposive design ============================================= */
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 74.9375rem) {
   body {
     overflow-x: hidden;
   }
@@ -219,8 +213,8 @@ button .fas {
     width: auto;
   }
   .banner-section img {
-    margin-top: 22px;
-    width: 340px;
+    margin-top: 1.375rem;
+    width: 21.25rem;
   }
   .banner-section .left-banner {
     display: flex;
@@ -249,7 +243,7 @@ button .fas {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48rem) {
   body {
     overflow-x: hidden;
   }
@@ -274,11 +268,11 @@ button .fas {
     text-align: center;
     justify-content: center;
     width: auto;
-    padding: 0 15px;
+    padding: 0 0.9375rem;
     margin: 0 auto;
   }
   .banner-section .right-banner img {
-    width: 257px;
+    width: 16.0625rem;
   }
   .products-section {
     display: flex;
